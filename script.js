@@ -51,10 +51,10 @@ function displayPhotos(){
 
         setAttributes(img, {
             src: photo.urls.regular,
-            title: photo.urls.alt_description,
-            alt: photo.urls.alt_description,
-        })
-
+            title: photo.alt_description,
+            alt: photo.alt_description,
+        });
+        
         //Event listener to get when loading is finished
         img.addEventListener('load', imageLoaded);
         
