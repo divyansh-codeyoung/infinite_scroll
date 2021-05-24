@@ -3,6 +3,7 @@
 
 Like in most social media platforms, the scrolling never stops so tried implementing something similar.
 
+- Loadingdock.io loading.io for loader svg
 - Tweet button, you can directly tweet the quote you like.
 - Next quote button with a clean loader
 - Completely optimised so that minimal resources(network and storage) will be used.
